@@ -9,9 +9,12 @@ function App() {
       <div>
         <span>Hello World</span> <br/>
         <span>Sejam bem vindos, somos a Devs Duo</span>
+
+        teste blablabla
         
         <FaBeer />
       </div>
+      <FaBeer />
     </>
   )
 }

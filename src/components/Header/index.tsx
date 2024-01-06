@@ -15,7 +15,7 @@ const Header: React.FC = () => {
       </S.LeftHeader>
       <S.RightHeader>
         <S.MenuHeader>
-          <a href='#' target='_blank'>Home</a>
+          <a href='#' target='_blank' className='active'>Home</a>
           <a href='#' target='_blank'>Sobre Nós</a>
           <a href='#' target='_blank'>Habilidades</a>
           <a href='#' target='_blank'>Projetos</a>

@@ -32,6 +32,12 @@ export const MenuHeader = styled.div`
     flex-direction: row;
     gap: 16px;
 
+    
+    > .active {
+        color: #993399;
+        text-decoration: underline;
+    }
+
     > a {
         color: #fff;
         text-decoration: none;

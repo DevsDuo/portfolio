@@ -23,5 +23,6 @@ export const ContainerButton = styled.button`
         font-size: 20px;
         font-weight: 700;
         z-index: 1;
+        text-transform: uppercase;
     }
 `;

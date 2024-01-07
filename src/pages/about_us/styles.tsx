@@ -28,7 +28,6 @@ export const AboutHorizontal = styled.div`
 
     div {
         color: #F1F1F1;
-        font-family: Inter;
         font-size: 1.2rem;
         font-style: normal;
         font-weight: 400;

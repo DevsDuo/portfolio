@@ -38,7 +38,7 @@ export function Projects() {
 
     return (
         <div>
-        <S.ProjectTitle>PROJETOS</S.ProjectTitle>
+        <S.ProjectTitle id="projects">PROJETOS</S.ProjectTitle>
 
         <S.SectionCenter>
             <section>

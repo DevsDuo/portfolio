@@ -2,6 +2,7 @@ import * as S from "./styles.tsx"
 import { project_list } from "./project_list.ts"
 import { useState } from "react"
 import { Project } from "../../components/Project/index.tsx";
+import Button from "../../components/Button/index.tsx";
 
 
 export interface projectType {
@@ -16,6 +17,8 @@ export interface projectType {
     
 }
 
+const maxRows = 520 * (Math.ceil((project_list.length - 6)/ 3))
+export const maxRowsPx = maxRows +" px";
 
 export function Projects() {
 
@@ -29,8 +32,8 @@ export function Projects() {
         }
     }
 
-    const maxRows = Math.ceil((project_list.length - 6)/ 3)
-    // VER DEPOIS
+    
+    
     
 
     return (
@@ -61,7 +64,7 @@ export function Projects() {
         
                 
 
-            <S.HiddenContainer render={renderAll}>   
+            <S.HiddenContainer render={renderAll === true ? maxRowsPx : '0px'}>   
             {project_list.map((i:projectType, index) => {
                 if (index > 5) {
                     return (
@@ -82,8 +85,10 @@ export function Projects() {
             })}
               </S.HiddenContainer>  
                 
-                    
-            <button onClick={toggleRenderAll}>ver mais</button>
+             <S.ButtonContainer>
+                <Button text={renderAll === true ? "VER MENOS" : "VER MAIS"} link={toggleRenderAll}/>
+            </S.ButtonContainer>       
+            
             </section>
         </S.SectionCenter>
         </div>

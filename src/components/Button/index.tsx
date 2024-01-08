@@ -1,10 +1,15 @@
-import React from 'react';
+
 import * as S from "./styles"
 
-const Button: React.FC = () => {
+interface LinkButton {
+  link: VoidFunction;
+  text:string;
+}
+
+function Button(props:LinkButton) {
   return(
-    <S.ContainerButton>
-        <span>Ver Mais</span>
+    <S.ContainerButton onClick={props.link}>
+        {props.text}
     </S.ContainerButton>
   );
 }

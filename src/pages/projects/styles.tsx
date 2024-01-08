@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 interface HiddenContainerHeight {
-    render: false | true
+    render: string
 }
 
 export const HiddenContainer = styled.div<HiddenContainerHeight>`
     display:flex;
     flex-wrap:wrap;
     align-items:center;
-    max-height: ${(props) => props.render === false ? '0px' : 'seilákk'};
+    max-height:${props => props.render} ;
     overflow:hidden;
 
     @media (max-width: 814px) {
@@ -47,4 +47,10 @@ export const ProjectTitle = styled.div`
         text-align:center;
         margin-top:2rem;
         margin-bottom:3rem;
+`
+
+export const ButtonContainer = styled.div`
+    display:flex;
+    justify-content: center;
+    margin-bottom:5rem;
 `

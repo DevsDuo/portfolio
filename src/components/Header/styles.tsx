@@ -9,6 +9,7 @@ export const HeaderContainer = styled.div`
     height: 100px;
     padding-left: 100px;
     padding-right: 100px;
+    box-shadow: 0 0 20px #939;
 `;
 
 export const LeftHeader = styled.div`

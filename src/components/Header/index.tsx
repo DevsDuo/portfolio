@@ -18,8 +18,8 @@ const Header: React.FC = () => {
           <a href='#home' className='active'>Home</a>
           <a href='#about-us'>Sobre Nós</a>
           <a href='#'>Habilidades</a>
-          <a href='#'>Projetos</a>
-          <a href='#'>Contato</a>
+          <a href='#projects'>Projetos</a>
+          <a href='#contact'>Contato</a>
         </S.MenuHeader>
         <S.IconTheme>
           <a href='#'>

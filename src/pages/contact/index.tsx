@@ -8,16 +8,27 @@ import EmailIcon from "../../assets/icons/email.svg"
 
 const Contact: React.FC = () => {
   return (
-    <S.ContactContainer>
+    <S.ContactContainer id='contact'>
         <span>Contato</span>
         <S.BodyContact>
             <S.LeftContainer>
                 <span>Fale Conosco</span>
                 <S.FormContact>
-                    <input type='text' placeholder='Nome Completo' />
-                    <input type='text' placeholder='Email ou Telefone' />
-                    <textarea placeholder='Escreva sua Mensagem' />
-                    <input type='submit' />
+                    <form action="">
+                        <S.InputGroup>
+                            <input type="text" required />
+                            <label>Nome Completo</label>
+                        </S.InputGroup>
+                        <S.InputGroup>
+                            <input type="text" required />
+                            <label>Email ou Contato</label>
+                        </S.InputGroup>
+                        <S.InputGroup>
+                            <input type='text' required />
+                            <label>Escreva sua Mensagem</label>
+                        </S.InputGroup>
+                        <button type='submit'>Enviar</button>
+                    </form>
                 </S.FormContact>
             </S.LeftContainer>
             <S.RightContainer>

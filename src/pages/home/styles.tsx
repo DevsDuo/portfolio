@@ -6,13 +6,19 @@ export const ContainerHome = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 100px 80px;
+    background: linear-gradient(155deg, #330036 12.91%, #550F56 25.43%, #761F75 49.77%, #151515 49.87%, #151515 80.16%);
 `;
 
-export const LogoHome = styled.img``;
+export const LogoHome = styled.img`
+    margin-left:-80px;
+`;
+
+
 
 export const TextsHome = styled.div`
     display: flex;
     flex-direction: column;
+    margin-right:10px;
 
     > h1 {
         color: #939;

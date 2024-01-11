@@ -7,7 +7,7 @@ interface HiddenContainerHeight {
 export const HiddenContainer = styled.div<HiddenContainerHeight>`
     display:flex;
     flex-wrap:wrap;
-    align-items:center;
+    align-items:start;
     max-height:${props => props.render} ;
     overflow:hidden;
 
@@ -19,7 +19,7 @@ export const HiddenContainer = styled.div<HiddenContainerHeight>`
 export const CenterDiv = styled.div`
     display:flex;
     flex-wrap:wrap;
-    align-items:center;
+    align-items:start;
 `
 
 export const SectionCenter = styled.div`

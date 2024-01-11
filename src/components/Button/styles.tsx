@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const ContainerButton = styled.button`
+export const ContainerButton = styled.a`
+    text-decoration:none;
     font-family:poppins;
     display: flex;
     align-items: center;

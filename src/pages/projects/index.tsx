@@ -5,6 +5,7 @@ import { Project } from "../../components/Project/index.tsx";
 import Button from "../../components/Button/index.tsx";
 
 
+
 export interface projectType {
     name:string;
     link:string;
@@ -29,10 +30,10 @@ export function Projects() {
             setRenderAll(true)
         } else {
             setRenderAll(false)
+            scrollTo({behavior:"instant", top:2300})
         }
     }
 
-    
     
     
 
@@ -86,7 +87,7 @@ export function Projects() {
               </S.HiddenContainer>  
                 
              <S.ButtonContainer>
-                <Button text={renderAll === true ? "VER MENOS" : "VER MAIS"} link={toggleRenderAll}/>
+                <Button text={renderAll === true ? "VER MENOS" : "VER MAIS"}  link={toggleRenderAll}/>
             </S.ButtonContainer>       
             
             </section>

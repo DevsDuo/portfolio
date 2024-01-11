@@ -10,7 +10,7 @@ export const ContainerHome = styled.div`
 `;
 
 export const LogoHome = styled.img`
-    margin-left:-80px;
+    margin-left: -40px;
 `;
 
 

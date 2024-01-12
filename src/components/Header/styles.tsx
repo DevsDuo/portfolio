@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     background-color: #121212;
-    height: 100px;
+    height: 120px;
     padding-left: 100px;
     padding-right: 100px;
     box-shadow: 0 0 20px #939;
@@ -18,9 +18,19 @@ export const LeftHeader = styled.div`
     align-items: center;
 `;
 
-export const LogoHeader = styled.img`
-    width: 265px;
-    padding-top: 30px;
+export const LogoHeader = styled.div`    
+    > img {
+        width: 200px;
+    }
+`;
+
+export const LogoHeaderHover = styled.div`
+    display: none;
+
+    > img {
+        width: 200px;
+        padding-top: 30px;
+    }
 `;
 
 export const RightHeader = styled.div`

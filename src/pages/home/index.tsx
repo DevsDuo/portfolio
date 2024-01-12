@@ -8,7 +8,10 @@ const Home: React.FC = () => {
     <S.ContainerHome id='home'>
         <S.LogoHome src={LogoHome} />
         <S.TextsHome>
-            <h1>Hello World</h1>
+            <S.HelloWorldText>
+              <h1 className='text'>&nbsp;Hello World</h1>
+              <h1 className='hover-text'>&nbsp;Hello World</h1>
+            </S.HelloWorldText>
             <span>Sejam bem vindos, somos a <S.DevsDuoHome>Devs Duo</S.DevsDuoHome>!</span>
         </S.TextsHome>
     </S.ContainerHome>

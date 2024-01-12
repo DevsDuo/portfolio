@@ -13,18 +13,40 @@ export const LogoHome = styled.img`
     margin-left:-80px;
 `;
 
+export const HelloWorldText = styled.div`
+    position: relative;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 80px;
+    cursor: pointer;
 
+    > .text {
+        color: transparent;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+    }
+
+    > .hover-text {
+        position: absolute;
+        inset: 0;
+        width: 0%;
+        color: #939;
+        overflow: hidden;
+        border-right: 6px solid #939;
+        transition: 0.5s ease-in-out;
+    }
+
+    > .hover-text:hover {
+        width: 100%;
+        filter: drop-shadow(0 0 40px #939);
+    }
+
+`;
 
 export const TextsHome = styled.div`
     display: flex;
     flex-direction: column;
     margin-right:10px;
-
-    > h1 {
-        color: #939;
-        font-size: 80px;
-        font-weight: 600;
-    }
 
     > span {
         text-align: right;

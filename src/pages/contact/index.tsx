@@ -5,8 +5,14 @@ import InstagramLogo from "../../assets/icons/instagram.svg"
 import LinkedinIcon from "../../assets/icons/linkedin.svg"
 import GithubIcon from "../../assets/icons/github.svg"
 import EmailIcon from "../../assets/icons/email.svg"
+import Button from '../../components/Button';
 
 const Contact: React.FC = () => {
+
+    function toggleRenderAll() {
+        console.log("Enviado")
+    }
+
   return (
     <S.ContactContainer id='contact'>
         <span>Contato</span>
@@ -27,7 +33,7 @@ const Contact: React.FC = () => {
                             <input type='text' required />
                             <label>Escreva sua Mensagem</label>
                         </S.InputGroup>
-                        <button type='submit'>Enviar</button>
+                        <Button link={toggleRenderAll} text={'Enviar'}  />
                     </form>
                 </S.FormContact>
             </S.LeftContainer>

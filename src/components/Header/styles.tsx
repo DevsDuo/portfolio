@@ -9,7 +9,9 @@ export const HeaderContainer = styled.div`
     height: 120px;
     padding-left: 100px;
     padding-right: 100px;
-    box-shadow: 0 0 20px #939;
+    position: fixed;
+    z-index: 999;
+    width: 88%;
 `;
 
 export const LeftHeader = styled.div`

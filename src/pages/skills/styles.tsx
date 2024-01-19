@@ -19,10 +19,17 @@ export const SkillsIcons = styled.div`
     display: flex;
     flex-direction: row;
     gap: 12px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    
 `;
 
 export const Icon = styled.img`
-    width: 80px;
-    height: 85px;
+    width: 90px;
+    height: 96px;
+    transition: all 250ms;
+
+    &:hover {
+        filter: drop-shadow(0px 0px 15px #611261); 
+        transform:scale(1.2);
+    }
 `;

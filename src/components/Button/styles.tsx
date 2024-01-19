@@ -22,7 +22,8 @@ export const ContainerButton = styled.a`
         text-transform: uppercase;
 
     &:hover {
-        box-shadow: 0 0 20px #6e236e;
+        box-shadow: 0 0 20px #4d124d;
+        transform:scale(1.05)
     }
 
     

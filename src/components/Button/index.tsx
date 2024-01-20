@@ -2,7 +2,7 @@
 import * as S from "./styles"
 
 interface LinkButton {
-  link: VoidFunction;
+  link?: VoidFunction;
   text:string;
 }
 

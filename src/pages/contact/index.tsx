@@ -8,11 +8,6 @@ import EmailIcon from "../../assets/icons/email.svg"
 import Button from '../../components/Button';
 
 const Contact: React.FC = () => {
-
-    function toggleRenderAll() {
-        console.log("Enviado")
-    }
-
   return (
     <S.ContactContainer id='contact'>
         <span>Contato</span>
@@ -33,7 +28,7 @@ const Contact: React.FC = () => {
                             <input type='text' required />
                             <label>Escreva sua Mensagem</label>
                         </S.InputGroup>
-                        <Button link={toggleRenderAll} text={'Enviar'}  />
+                        <Button text={'Enviar'}  />
                     </form>
                 </S.FormContact>
             </S.LeftContainer>

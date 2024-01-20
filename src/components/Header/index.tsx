@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import * as S from "./styles";
 
-import { IoMoon } from "react-icons/io5";
-
 import LogoHeader from "../../assets/logo-simp.png"
 import LogoHeaderHover from "../../assets/logo-principal.png"
 
@@ -64,11 +62,6 @@ const Header: React.FC = () => {
             Contato
           </a>
         </S.MenuHeader>
-        <S.IconTheme>
-          <a href='#'>
-            <IoMoon />
-          </a>
-        </S.IconTheme>
       </S.RightHeader>
     </S.HeaderContainer>
   )

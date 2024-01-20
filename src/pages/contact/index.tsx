@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
                             <input type='text' required />
                             <label>Escreva sua Mensagem</label>
                         </S.InputGroup>
-                        <Button text={'Enviar'}  />
+                        <Button text={'Enviar Formulário'}  />
                     </form>
                 </S.FormContact>
             </S.LeftContainer>

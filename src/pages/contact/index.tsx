@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
                     <span>Instagram</span>
                 </S.SocialSection>
                 <S.SocialSection>
-                    <a href='#'>
+                    <a target='_blank'>
                         <S.SocialIcon src={LinkedinIcon} />
                     </a>
                     <span>Linkedin</span>

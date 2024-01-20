@@ -6,6 +6,7 @@ export const ContainerSkills = styled.div`
     justify-content: center;
     align-items: center;
     padding-bottom: 80px;
+    scroll-margin-top: 130px;
 
     > span {
         color: #943094;

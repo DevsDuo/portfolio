@@ -5,8 +5,9 @@ export const ContainerHome = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 80px;
+    padding: 130px 80px;
     background: linear-gradient(155deg, #330036 12.91%, #550F56 25.43%, #761F75 49.77%, #151515 49.87%, #151515 80.16%);
+    scroll-margin-top: 130px;
 `;
 
 export const LogoHome = styled.img`

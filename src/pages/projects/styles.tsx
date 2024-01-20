@@ -47,6 +47,7 @@ export const ProjectTitle = styled.div`
         text-align:center;
         margin-top:2rem;
         margin-bottom:3rem;
+        scroll-margin-top: 130px;
 `
 
 export const ButtonContainer = styled.div`

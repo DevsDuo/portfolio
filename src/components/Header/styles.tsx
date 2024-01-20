@@ -11,7 +11,7 @@ export const HeaderContainer = styled.div`
     padding-right: 100px;
     position: fixed;
     z-index: 999;
-    width: 88%;
+    width: 100%;
 `;
 
 export const LeftHeader = styled.div`

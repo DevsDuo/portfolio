@@ -16,32 +16,16 @@ export const LogoHome = styled.img`
 
 export const HelloWorldText = styled.div`
     position: relative;
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 80px;
+    color: #939;
     cursor: pointer;
 
-    > .text {
-        color: transparent;
-        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+    &:hover {
+        filter: drop-shadow(0 0 10px #939); 
     }
-
-    > .hover-text {
-        position: absolute;
-        inset: 0;
-        width: 0%;
-        color: #939;
-        overflow: hidden;
-        border-right: 6px solid #939;
-        transition: 0.5s ease-in-out;
-    }
-
-    > .hover-text:hover {
-        width: 100%;
-        filter: drop-shadow(0 0 40px #939);
-    }
-
 `;
 
 export const TextsHome = styled.div`

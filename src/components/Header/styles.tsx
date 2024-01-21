@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     background-color: #121212;
-    height: 120px;
+    height: 100px;
     padding-left: 100px;
     padding-right: 100px;
     position: fixed;
@@ -59,8 +59,7 @@ export const MenuHeader = styled.div`
     }
 
     > a:hover {
-        color: #993399;
-        text-decoration: underline;
+        color: #939;
     }
 `;
 

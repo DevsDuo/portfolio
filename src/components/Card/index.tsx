@@ -13,7 +13,7 @@ function Card(props:card) {
       <S.LangImg src={skillsText[props.ind].img}/>
       <S.LangTitle>{skillsText[props.ind].lang}</S.LangTitle>
       <S.LangTxt>{skillsText[props.ind].txt}</S.LangTxt>
-      </S.CardContainer>
+    </S.CardContainer>
   );
 }
 

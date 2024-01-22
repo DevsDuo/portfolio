@@ -25,10 +25,10 @@ const Skills: React.FC = () => {
             <FaCss3Alt onClick={() => setIndex(1)}/>
             <RiJavascriptFill onClick={() => setIndex(2)}/>
             <FaReact onClick={() => setIndex(3)}/>
-            <SiStyledcomponents />
-            <BiLogoTypescript />
-            <FaGitAlt />
-            <FaGithub />
+            <BiLogoTypescript onClick={() => setIndex(4)} />
+            <SiStyledcomponents onClick={() => setIndex(5)} />
+            <FaGithub onClick={() => setIndex(6)} />
+            <FaGitAlt onClick={() => setIndex(7)} />
         </S.SkillsIcons>
         <Card ind={index}/>
     </S.ContainerSkills>

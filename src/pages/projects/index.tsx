@@ -4,8 +4,6 @@ import { useState } from "react"
 import { Project } from "../../components/Project/index.tsx";
 import Button from "../../components/Button/index.tsx";
 
-
-
 export interface projectType {
     name:string;
     link:string;

@@ -21,16 +21,17 @@ export const SkillsIcons = styled.div`
     flex-direction: row;
     gap: 12px;
     margin-bottom: 50px;
-    
-`;
 
-export const Icon = styled.img`
-    width: 90px;
-    height: 96px;
-    transition: all 250ms;
+    > svg {
+        color: #939;
+        width: 90px;
+        height: 90px;
+        transition: all 250ms;
+    }
 
-    &:hover {
+    > svg:hover {
         filter: drop-shadow(0px 0px 15px #611261); 
         transform:scale(1.2);
     }
+    
 `;

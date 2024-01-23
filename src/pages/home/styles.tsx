@@ -5,13 +5,32 @@ export const ContainerHome = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 220px 80px;
+    padding: 200px 80px;
     background: linear-gradient(155deg, #330036 12.91%, #550F56 25.43%, #761F75 49.77%, #151515 49.87%, #151515 80.16%);
     scroll-margin-top: 130px;
+
+    @media (max-width: 1024px) {
+        display: flex;
+        flex-direction: column-reverse;   
+        text-align: center;
+        background: #151515;
+    }
 `;
 
 export const LogoHome = styled.img`
   margin-left: -25px;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+`;
+
+export const LogoHomeResponsive = styled.img`
+  display: none;
+
+  @media (max-width: 1024px) {
+    display: block;
+  }
 `;
 
 export const HelloWorldText = styled.div`
@@ -22,9 +41,12 @@ export const HelloWorldText = styled.div`
     line-height: 80px;
     color: #939;
     cursor: pointer;
+    filter: drop-shadow(0 0 10px #939); 
 
-    &:hover {
-        filter: drop-shadow(0 0 10px #939); 
+    @media (max-width: 1024px) {
+       font-size: 20px;
+       text-align: center;
+       filter: drop-shadow(0 0 10px #939); 
     }
 `;
 
@@ -36,6 +58,14 @@ export const TextsHome = styled.div`
     > span {
         text-align: right;
         font-size: 20px;
+    }
+
+    
+    @media (max-width: 1024px) {
+        > span {
+            font-size: 18px;
+            text-align: center;
+        }
     }
 `;
 

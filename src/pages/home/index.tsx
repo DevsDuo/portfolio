@@ -3,12 +3,15 @@ import * as S from "./styles"
 
 import LogoHome from "../../assets/logo_home.png"
 
+import LogoHomeResponsive from "../../assets/logo-principal.png"
+
 import { Typewriter } from 'react-simple-typewriter';
 
 const Home: React.FC = () => {
   return(
     <S.ContainerHome id='home'>
         <S.LogoHome src={LogoHome} />
+        <S.LogoHomeResponsive src={LogoHomeResponsive} />
         <S.TextsHome>
             <S.HelloWorldText>
               <h1>

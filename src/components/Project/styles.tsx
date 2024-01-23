@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const projectContainer = styled.div`
+export const ProjectContainer = styled.div`
     padding: 0.5rem;
     margin: 0.7rem;
     width:23rem;
@@ -10,7 +10,7 @@ export const projectContainer = styled.div`
 
 `
 
-export const projectPic = styled.div`
+export const ProjectPic = styled.div`
 
     display:flex;
     flex-direction:column;
@@ -26,7 +26,7 @@ export const projectPic = styled.div`
         text-decoration:none;
         color: #EDEDED;
         text-align: center;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
         font-family: Poppins;
         font-size: 1.1rem;
         font-style: normal;
@@ -35,14 +35,14 @@ export const projectPic = styled.div`
         border-radius: 0px 0px 30px 30px;
         background: #282828;
         width:21rem;
-        height:1.7rem;
+        height:2.7rem;
         padding-top:0.5rem;
         padding-bottom:0.5rem;
         
     }
 `
 
-export const projectTitle = styled.div`
+export const ProjectTitle = styled.div`
     color: #EDEDED;
     text-align: center;
     font-family: Poppins;
@@ -54,7 +54,7 @@ export const projectTitle = styled.div`
     margin-bottom:0rem;
 `
 
-export const technologies = styled.div`
+export const Technologies = styled.div`
     display:flex;
     justify-content:start;
     width:19rem;
@@ -70,7 +70,7 @@ export const technologies = styled.div`
     
 `
 
-export const projectDesc = styled.div`
+export const ProjectDesc = styled.div`
     color: #EDEDED;
     font-family: Poppins;
     font-size: 1rem;

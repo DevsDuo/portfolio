@@ -6,15 +6,15 @@ import * as S from "./styles.tsx"
 export function Project(props:projectType) {
     return (
             <S.Wrapper>
-            <S.projectContainer>
-                <S.projectPic>
+            <S.ProjectContainer>
+                <S.ProjectPic>
                     <img src={props.img}/>
                     <a href="https://github.com">SAIBA MAIS</a>
-                </S.projectPic>
-                <S.projectTitle>
+                </S.ProjectPic>
+                <S.ProjectTitle>
                     {props.name}
-                </S.projectTitle>
-                <S.technologies>
+                </S.ProjectTitle>
+                <S.Technologies>
                     {props.html === true ? <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" viewBox="0 0 41 50" fill="none">
   <g clip-path="url(#clip0_56_65)">
     <path d="M0 3.8526L3.67847 42.3186L20.1841 47.3917L36.7952 42.3186L40.4737 3.8526H0ZM32.4843 16.2826H13.1118L13.5439 21.0836H32.0522L30.6188 35.5059L20.3001 38.1299V38.1591H20.1841L9.78114 35.5059L9.14874 28.1393H14.1763L14.5452 31.842L20.1841 33.2512L25.8441 31.842L26.4765 25.7971H8.88524L7.53611 11.6469H32.9481L32.4843 16.2826Z" fill="url(#paint0_linear_56_65)"/>
@@ -70,9 +70,9 @@ export function Project(props:projectType) {
     </linearGradient>
   </defs>
 </svg> : null}
-                </S.technologies>
-                <S.projectDesc>{props.desc}</S.projectDesc>
-            </S.projectContainer>
+                </S.Technologies>
+                <S.ProjectDesc>{props.desc}</S.ProjectDesc>
+            </S.ProjectContainer>
             </S.Wrapper>
             
     )

@@ -10,7 +10,7 @@ interface card {
 function Card(props:card) {
   return (
     <S.CardContainer>  
-      <S.LangImg src={skillsText[props.ind].img}/>
+      <S.LangImg image={props.ind == 5 ? '250px' : '120px'} src={skillsText[props.ind].img}/>
       <S.LangTitle>{skillsText[props.ind].lang}</S.LangTitle>
       <S.LangTxt>{skillsText[props.ind].txt}</S.LangTxt>
     </S.CardContainer>

@@ -23,7 +23,7 @@ export const SkillsIcons = styled.div`
     margin-bottom: 50px;
 
     > svg {
-        color: #939;
+        color: #862686;
         width: 90px;
         height: 90px;
         transition: all 250ms;

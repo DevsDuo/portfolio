@@ -17,17 +17,15 @@ export const AboutVertical = styled.div`
 `
 export const PageTitle = styled.div`
     color: #939;
-        font-family: Poppins;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
 `
 
 export const AboutHorizontal = styled.div`
     display:flex;
 
-    div {
+    > div {
         color: #F1F1F1;
         font-size: 1.2rem;
         font-style: normal;
@@ -37,7 +35,7 @@ export const AboutHorizontal = styled.div`
         line-height:25px;
     }
 
-    img {
+    > img {
         width:30rem;
         height:30.5rem;
     }

@@ -21,6 +21,11 @@ export const BodyContact = styled.div`
     flex-direction: row;
     justify-content: space-between;
     padding-top: 30px;
+    
+    @media (max-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
 export const LeftContainer = styled.div`
@@ -75,6 +80,18 @@ export const RightContainer = styled.div`
         font-size: 36px;
         font-weight: 600;
     }
+
+    @media (max-width: 1024px) {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        > span {
+            margin-right: 50px;
+        }
+    }
 `;
 
 export const SocialSection = styled.div`
@@ -88,9 +105,24 @@ export const SocialSection = styled.div`
         font-weight: 600;
         padding-left: 20px;
     }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+
+        > span {
+            display: none;
+        }
+    }
 `;
 
 export const SocialIcon = styled.img`
     width: 80px;
     height: 80px;
+
+    @media (max-width: 1024px) {
+        width: 60px;
+        height: 60px;
+    }
 `;  

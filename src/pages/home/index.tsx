@@ -14,7 +14,7 @@ const Home: React.FC = () => {
               <h1>
                 <Typewriter 
                   words={['Olá Mundo!', 'Hello World!', 'Hola mundo!', 'Bonjour le monde!', 'Hallo Welt!', '你好世界!']} 
-                  loop={10}
+                  loop={0}
                   cursor
                   typeSpeed={100}
                 />

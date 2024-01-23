@@ -11,7 +11,7 @@ export const ContainerHome = styled.div`
 `;
 
 export const LogoHome = styled.img`
-    margin-left:-80px;
+    margin-left: -25px;
 `;
 
 export const HelloWorldText = styled.div`

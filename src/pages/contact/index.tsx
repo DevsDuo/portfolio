@@ -5,6 +5,7 @@ import InstagramLogo from "../../assets/icons/instagram.svg"
 import LinkedinIcon from "../../assets/icons/linkedin.svg"
 import GithubIcon from "../../assets/icons/github.svg"
 import EmailIcon from "../../assets/icons/email.svg"
+import Button from '../../components/Button';
 
 const Contact: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const Contact: React.FC = () => {
             <S.LeftContainer>
                 <span>Fale Conosco</span>
                 <S.FormContact>
-                    <form action="">
+                    <form action="" name="contact" method="POST" data-netlify="true">
                         <S.InputGroup>
                             <input type="text" required />
                             <label>Nome Completo</label>
@@ -27,7 +28,7 @@ const Contact: React.FC = () => {
                             <input type='text' required />
                             <label>Escreva sua Mensagem</label>
                         </S.InputGroup>
-                        <button type='submit'>Enviar</button>
+                        <Button text={'Enviar Formulário'}  />
                     </form>
                 </S.FormContact>
             </S.LeftContainer>
@@ -40,7 +41,7 @@ const Contact: React.FC = () => {
                     <span>Instagram</span>
                 </S.SocialSection>
                 <S.SocialSection>
-                    <a href='#'>
+                    <a target='_blank'>
                         <S.SocialIcon src={LinkedinIcon} />
                     </a>
                     <span>Linkedin</span>

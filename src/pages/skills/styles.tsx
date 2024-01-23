@@ -6,6 +6,7 @@ export const ContainerSkills = styled.div`
     justify-content: center;
     align-items: center;
     padding-bottom: 80px;
+    scroll-margin-top: 130px;
 
     > span {
         color: #943094;
@@ -19,10 +20,18 @@ export const SkillsIcons = styled.div`
     display: flex;
     flex-direction: row;
     gap: 12px;
-    margin-bottom: 70px;
-`;
+    margin-bottom: 50px;
 
-export const Icon = styled.img`
-    width: 80px;
-    height: 85px;
+    > svg {
+        color: #862686;
+        width: 90px;
+        height: 90px;
+        transition: all 250ms;
+    }
+
+    > svg:hover {
+        filter: drop-shadow(0px 0px 15px #611261); 
+        transform:scale(1.2);
+    }
+    
 `;

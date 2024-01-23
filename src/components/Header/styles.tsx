@@ -9,7 +9,10 @@ export const HeaderContainer = styled.div`
     height: 100px;
     padding-left: 100px;
     padding-right: 100px;
-    box-shadow: 0 0 20px #939;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0 0 10px #939;
 `;
 
 export const LeftHeader = styled.div`
@@ -18,9 +21,19 @@ export const LeftHeader = styled.div`
     align-items: center;
 `;
 
-export const LogoHeader = styled.img`
-    width: 265px;
-    padding-top: 30px;
+export const LogoHeader = styled.div`    
+    > img {
+        width: 200px;
+    }
+`;
+
+export const LogoHeaderHover = styled.div`
+    display: none;
+
+    > img {
+        width: 200px;
+        padding-top: 30px;
+    }
 `;
 
 export const RightHeader = styled.div`
@@ -46,8 +59,7 @@ export const MenuHeader = styled.div`
     }
 
     > a:hover {
-        color: #993399;
-        text-decoration: underline;
+        color: #939;
     }
 `;
 

@@ -4,6 +4,7 @@ export const AboutContainer = styled.section`
     padding: 3.1rem;
     padding-left: 7.5rem;
     padding-right:3.5rem;
+    scroll-margin-top: 130px;
 `
 
 export const AboutVertical = styled.div`

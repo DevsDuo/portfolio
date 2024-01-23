@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const ContainerButton = styled.button`
+export const ContainerButton = styled.a`
+    text-decoration:none;
     font-family:poppins;
     display: flex;
     align-items: center;
@@ -21,7 +22,8 @@ export const ContainerButton = styled.button`
         text-transform: uppercase;
 
     &:hover {
-        box-shadow: 0 0 20px #6e236e;
+        box-shadow: 0 0 20px #4d124d;
+        transform:scale(1.05)
     }
 
     

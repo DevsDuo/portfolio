@@ -5,6 +5,7 @@ export const ContactContainer = styled.div`
     flex-direction: column;
     padding: 0 110px;
     margin-bottom: 50px;
+    scroll-margin-top: 130px;
 
     > span {   
         color: #939;

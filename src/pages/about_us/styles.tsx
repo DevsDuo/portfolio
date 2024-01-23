@@ -5,6 +5,10 @@ export const AboutContainer = styled.section`
     padding-left: 7.5rem;
     padding-right:3.5rem;
     scroll-margin-top: 130px;
+
+    @media (max-width: 1024px) {
+        padding-top: 0;
+    }
 `
 
 export const AboutVertical = styled.div`
@@ -12,14 +16,13 @@ export const AboutVertical = styled.div`
     flex-direction:column;
     align-items:center;
     margin-bottom:3rem;
-
-
 `
 export const PageTitle = styled.div`
     color: #939;
     font-size: 22px;
     font-style: normal;
     font-weight: 900;
+    padding: 0;
 `
 
 export const AboutHorizontal = styled.div`
@@ -38,5 +41,13 @@ export const AboutHorizontal = styled.div`
     > img {
         width:30rem;
         height:30.5rem;
+    }
+
+    @media (max-width: 1024px) {
+        align-items: center;
+
+        > div {    
+            font-size: 1rem;
+        }
     }
 `

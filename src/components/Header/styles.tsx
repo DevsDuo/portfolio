@@ -61,8 +61,58 @@ export const MenuHeader = styled.div`
     > a:hover {
         color: #939;
     }
+
+    @media (max-width:780px) {
+        display:none;
+    }
 `;
 
 export const IconTheme = styled.div`
     margin-left: 16px;
 `;
+
+export const HiddenMenuButton = styled.button`
+    display:none;
+
+
+    @media (max-width:780px) {
+        display:block;
+    }
+`
+
+
+interface visibleMenu {
+    visibility:string;
+}
+
+
+export const HiddenMenuHeader = styled.div<visibleMenu>`
+    display:none;
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    border-radius:10px;
+    background-color:#222222;
+    padding:1rem;
+    top:80px;
+
+    @media (max-width: 780px) {
+        display:${props => props.visibility}
+    }
+
+    > .active {
+        color: #993399;
+        text-decoration: underline;
+    }
+
+    > a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+
+    > a:hover {
+        color: #939;
+    }
+
+`

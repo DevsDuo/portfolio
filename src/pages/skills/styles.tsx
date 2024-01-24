@@ -21,12 +21,14 @@ export const SkillsIcons = styled.div`
     flex-direction: row;
     gap: 12px;
     margin-bottom: 50px;
+    
 
     > svg {
         color: #862686;
         width: 90px;
         height: 90px;
         transition: all 250ms;
+        margin:0.2rem;
     }
 
     > svg:hover {
@@ -34,4 +36,9 @@ export const SkillsIcons = styled.div`
         transform:scale(1.2);
     }
     
+    @media (max-width:768px) {
+        flex-wrap:wrap;
+        max-width:500px;
+        justify-content:center;
+    }
 `;

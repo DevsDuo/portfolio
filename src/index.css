@@ -3,6 +3,7 @@
   background-color: #151515;
   color: #fff;
   scroll-behavior: smooth;
+  
 
   &::-webkit-scrollbar {
     width: 18px; /* Largura da barra de rolagem */

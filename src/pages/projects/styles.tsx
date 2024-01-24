@@ -20,6 +20,7 @@ export const CenterDiv = styled.div`
     display:flex;
     flex-wrap:wrap;
     align-items:start;
+    justify-content:center;
 `
 
 export const SectionCenter = styled.div`
@@ -28,6 +29,7 @@ export const SectionCenter = styled.div`
     width:100%;
     
     section {
+        
         max-width:1220px;
         @media (max-width: 1219px) {
             max-width:814px;

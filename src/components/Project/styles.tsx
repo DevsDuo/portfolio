@@ -8,6 +8,8 @@ export const ProjectContainer = styled.div`
     align-items:center;
     display:flex;
 
+
+
 `
 
 export const ProjectPic = styled.div`
@@ -40,6 +42,8 @@ export const ProjectPic = styled.div`
         padding-bottom:0.5rem;
         
     }
+
+    
 `
 
 export const ProjectTitle = styled.div`

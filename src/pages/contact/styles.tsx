@@ -34,6 +34,8 @@ export const LeftContainer = styled.div`
         font-weight: 600;
         margin-bottom: 200px;
     }
+
+    
 `;
 
 export const FormContact = styled.div`
@@ -79,6 +81,8 @@ export const RightContainer = styled.div`
     > span {
         font-size: 36px;
         font-weight: 600;
+
+        
     }
 
     @media (max-width: 1024px) {
@@ -92,7 +96,33 @@ export const RightContainer = styled.div`
             margin-right: 50px;
         }
     }
+
+    @media (max-width: 768px) {
+        flex-direction:column;
+
+        span {
+            margin-right:0px;
+            margin-bottom:2.5rem;
+        }
+    }
+
+    
 `;
+
+export const ImgsContainer = styled.div`
+    display:flex;
+    flex-direction:column;
+
+    @media (max-width: 1024px) {
+        flex-direction:row;
+        gap:1.5rem;
+    }
+
+    @media (max-width: 768px) {
+        flex-direction:row;
+    }
+
+`
 
 export const SocialSection = styled.div`
     display: flex;
@@ -115,6 +145,8 @@ export const SocialSection = styled.div`
             display: none;
         }
     }
+
+    
 `;
 
 export const SocialIcon = styled.img`
@@ -124,5 +156,10 @@ export const SocialIcon = styled.img`
     @media (max-width: 1024px) {
         width: 60px;
         height: 60px;
+    }
+
+    @media (max-width: 768px) {
+        width:80px;
+        height:80px;
     }
 `;  

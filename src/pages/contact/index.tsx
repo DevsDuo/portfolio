@@ -34,6 +34,7 @@ const Contact: React.FC = () => {
             </S.LeftContainer>
             <S.RightContainer>
                 <span>Redes Sociais</span>
+                <S.ImgsContainer>
                 <S.SocialSection>
                     <a href='#'>
                         <S.SocialIcon src={InstagramLogo} />
@@ -58,6 +59,7 @@ const Contact: React.FC = () => {
                     </a>
                     <span>devsduo.contato@gmail.com</span>
                 </S.SocialSection>
+                </S.ImgsContainer>
             </S.RightContainer>
         </S.BodyContact>
     </S.ContactContainer>

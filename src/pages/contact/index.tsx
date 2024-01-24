@@ -15,18 +15,19 @@ const Contact: React.FC = () => {
             <S.LeftContainer>
                 <span>Fale Conosco</span>
                 <S.FormContact>
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form name="contact" method="POST" >
+                    <input type="hidden" name="form-name" value="contact" />
                         <input type="hidden" name="form-name" value="contact" />
                         <S.InputGroup>
-                            <input type="text" name='name' required />
+                            <input type="text" name='contact-name' required />
                             <label>Nome Completo</label>
                         </S.InputGroup>
                         <S.InputGroup>
-                            <input type="text" name="email" required />
+                            <input type="text" name="contact-email" required />
                             <label>Email ou Contato</label>
                         </S.InputGroup>
                         <S.InputGroup>
-                            <input type='text' name="msg" required />
+                            <input type='text' name="contact-msg" required />
                             <label>Escreva sua Mensagem</label>
                         </S.InputGroup>
                         <ButtonForm text={'Enviar Formulário'}  />

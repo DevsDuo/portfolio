@@ -16,6 +16,7 @@ const Contact: React.FC = () => {
                 <span>Fale Conosco</span>
                 <S.FormContact>
                     <form action="" name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact" />
                         <S.InputGroup>
                             <input type="text" required />
                             <label>Nome Completo</label>

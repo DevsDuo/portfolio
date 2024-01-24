@@ -14,6 +14,8 @@ export const ContactContainer = styled.div`
         font-weight: 900;
         margin-bottom: 40px;
     }
+
+    
 `;
 
 export const BodyContact = styled.div`
@@ -33,6 +35,11 @@ export const LeftContainer = styled.div`
         font-size: 36px;
         font-weight: 600;
         margin-bottom: 200px;
+
+        @media (max-width: 450px) {
+        white-space:nowrap;
+        margin-left:-18px;
+    }
     }
 
     
@@ -42,6 +49,8 @@ export const FormContact = styled.div`
     display: flex;
     flex-direction: column;
     padding-top: 30px;
+
+    
 `;
 
 export const InputGroup = styled.div`
@@ -106,6 +115,11 @@ export const RightContainer = styled.div`
         }
     }
 
+    @media (max-width: 450px) {
+        span {white-space:nowrap;
+            margin-left:20px;
+        }
+    }
     
 `;
 
@@ -121,6 +135,8 @@ export const ImgsContainer = styled.div`
     @media (max-width: 768px) {
         flex-direction:row;
     }
+
+    
 
 `
 
@@ -161,5 +177,10 @@ export const SocialIcon = styled.img`
     @media (max-width: 768px) {
         width:80px;
         height:80px;
+    }
+
+    @media (max-width: 450px) {
+        width:70px;
+        height:70px;
     }
 `;  

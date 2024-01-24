@@ -15,10 +15,17 @@ export const ContainerHome = styled.div`
         text-align: center;
         background: #151515;
     }
+
+    @media (max-width: 450px) {
+          padding-bottom:30px;
+      }
+
+    
 `;
 
 export const LogoHome = styled.img`
   margin-left: -25px;
+  
 
   @media (max-width: 1024px) {
     display: none;
@@ -31,6 +38,10 @@ export const LogoHomeResponsive = styled.img`
   @media (max-width: 1024px) {
     display: block;
   }
+
+  @media (max-width: 450px) {
+        width:400px;
+      }
 `;
 
 export const HelloWorldText = styled.div`

@@ -10,9 +10,15 @@ export const CardContainer = styled.div`
     border-radius: 35px;
     background: linear-gradient(200deg, #761F75 0%, #330036 100%);
     transition: all 250ms;
+    
 
     &:hover {
         box-shadow: 0 0 20px #6d0a6d;
+    }
+
+    @media (max-width: 450px) {
+        width:20rem;
+        height:auto;
     }
 `;
 

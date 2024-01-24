@@ -41,4 +41,11 @@ export const SkillsIcons = styled.div`
         max-width:500px;
         justify-content:center;
     }
+
+    @media (max-width: 450px) {
+        > svg {
+            width:80px;
+            height:80px;
+        }
+    }
 `;

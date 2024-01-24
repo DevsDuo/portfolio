@@ -5,7 +5,7 @@ import InstagramLogo from "../../assets/icons/instagram.svg"
 import LinkedinIcon from "../../assets/icons/linkedin.svg"
 import GithubIcon from "../../assets/icons/github.svg"
 import EmailIcon from "../../assets/icons/email.svg"
-import Button from '../../components/Button';
+import ButtonForm from '../../components/ButtonForm';
 
 const Contact: React.FC = () => {
   return (
@@ -15,21 +15,21 @@ const Contact: React.FC = () => {
             <S.LeftContainer>
                 <span>Fale Conosco</span>
                 <S.FormContact>
-                    <form action="" name="contact" method="POST" data-netlify="true">
-                    <input type="hidden" name="form-name" value="contact" />
+                    <form name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact" />
                         <S.InputGroup>
-                            <input type="text" required />
+                            <input type="text" name='name' required />
                             <label>Nome Completo</label>
                         </S.InputGroup>
                         <S.InputGroup>
-                            <input type="text" required />
+                            <input type="text" name="email" required />
                             <label>Email ou Contato</label>
                         </S.InputGroup>
                         <S.InputGroup>
-                            <input type='text' required />
+                            <input type='text' name="msg" required />
                             <label>Escreva sua Mensagem</label>
                         </S.InputGroup>
-                        <Button text={'Enviar Formulário'}  />
+                        <ButtonForm text={'Enviar Formulário'}  />
                     </form>
                 </S.FormContact>
             </S.LeftContainer>

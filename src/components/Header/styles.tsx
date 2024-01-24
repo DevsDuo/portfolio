@@ -89,7 +89,6 @@ interface visibleMenu {
 export const HiddenMenuHeader = styled.div<visibleMenu>`
     display:none;
     position:absolute;
-    display:flex;
     flex-direction:column;
     border-radius:10px;
     background-color:#222222;

@@ -24,6 +24,13 @@ const Header: React.FC = () => {
     }
   }
 
+
+function handleMenuClosing(index:number) {
+  setMenuVisibility()
+  handleLinkClick(index)
+}
+
+
   return (
     <S.HeaderContainer>
       <S.LeftHeader>
@@ -81,35 +88,35 @@ const Header: React.FC = () => {
           <a 
               href='#home' 
               className={activeLink === 0 ? "active" : ""} 
-              onClick={() => handleLinkClick(0)}
+              onClick={() => handleMenuClosing(0)}
             >
                 Home
             </a>
             <a 
               href='#about-us' 
               className={activeLink === 1 ? "active" : ""} 
-              onClick={() => handleLinkClick(1)}
+              onClick={() => handleMenuClosing(1)}
             >
               Sobre Nós
             </a>
             <a 
               href='#skills' 
               className={activeLink === 2 ? "active" : ""} 
-              onClick={() => handleLinkClick(2)}
+              onClick={() => handleMenuClosing(2)}
             >
               Habilidades
             </a>
             <a 
               href='#projects' 
               className={activeLink === 3 ? "active" : ""} 
-              onClick={() => handleLinkClick(3)}
+              onClick={() => handleMenuClosing(3)}
             >
               Projetos
             </a>
             <a 
               href='#contact' 
               className={activeLink === 4 ? "active" : ""} 
-              onClick={() => handleLinkClick(4)}
+              onClick={() => handleMenuClosing(4)}
             >
               Contato
             </a>

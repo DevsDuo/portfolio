@@ -16,7 +16,7 @@ export const ContainerHome = styled.div`
         background: #151515;
     }
 
-    @media (max-width: 450px) {
+    @media (max-width: 1024px) {
           padding-bottom:30px;
       }
 

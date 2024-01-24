@@ -13,6 +13,11 @@ export const HeaderContainer = styled.div`
     z-index: 999;
     width: 100%;
     box-shadow: 0 0 10px #939;
+
+    @media (max-width: 400px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 `;
 
 export const LeftHeader = styled.div`
@@ -71,9 +76,13 @@ export const IconTheme = styled.div`
     margin-left: 16px;
 `;
 
-export const HiddenMenuButton = styled.button`
+export const HiddenMenuButton = styled.div`
     display:none;
 
+    > svg {
+        width: 40px;
+        height: 40px;
+    }
 
     @media (max-width:780px) {
         display:block;
@@ -94,9 +103,14 @@ export const HiddenMenuHeader = styled.div<visibleMenu>`
     background-color:#222222;
     padding:1rem;
     top:80px;
+    text-align: center;
 
     @media (max-width: 780px) {
         display:${props => props.visibility}
+    }
+
+    @media (max-width: 400px) {
+        margin-left: -80px;
     }
 
     > .active {

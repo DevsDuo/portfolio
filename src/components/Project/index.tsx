@@ -7,10 +7,12 @@ export function Project(props:projectType) {
     return (
             <S.Wrapper>
             <S.ProjectContainer>
-                <S.ProjectPic>
-                    <img src={props.img}/>
-                    <a href="https://github.com">SAIBA MAIS</a>
-                </S.ProjectPic>
+                <a href={props.link} target="_blank">
+                  <S.ProjectPic>
+                      <img src={props.img}/>
+                      <a href={props.link} target="_blank">SAIBA MAIS</a>
+                  </S.ProjectPic>
+                </a>
                 <S.ProjectTitle>
                     {props.name}
                 </S.ProjectTitle>

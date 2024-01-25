@@ -8,12 +8,13 @@ export const ProjectContainer = styled.div`
     align-items:center;
     display:flex;
 
-
+    > a {
+        text-decoration: none;
+    }
 
 `
 
 export const ProjectPic = styled.div`
-
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -25,7 +26,7 @@ export const ProjectPic = styled.div`
     }
 
     a {
-        text-decoration:none;
+        text-decoration: none;
         color: #EDEDED;
         text-align: center;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);

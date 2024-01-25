@@ -1,11 +1,11 @@
 import React from 'react';
 import * as S from "./styles"
 
-import InstagramLogo from "../../assets/icons/instagram.svg"
-import LinkedinIcon from "../../assets/icons/linkedin.svg"
-import GithubIcon from "../../assets/icons/github.svg"
-import EmailIcon from "../../assets/icons/email.svg"
 import ButtonForm from '../../components/ButtonForm';
+
+import { FaInstagram, FaLinkedinIn, FaWhatsapp} from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import { FiGithub } from "react-icons/fi";
 
 const Contact: React.FC = () => {
   return (
@@ -37,30 +37,36 @@ const Contact: React.FC = () => {
             <S.RightContainer>
                 <span>Redes Sociais</span>
                 <S.ImgsContainer>
-                <S.SocialSection>
-                    <a href='#'>
-                        <S.SocialIcon src={InstagramLogo} />
-                    </a>
-                    <span>Instagram</span>
-                </S.SocialSection>
-                <S.SocialSection>
-                    <a target='_blank'>
-                        <S.SocialIcon src={LinkedinIcon} />
-                    </a>
-                    <span>Linkedin</span>
-                </S.SocialSection>
-                <S.SocialSection>
-                    <a href='#'>
-                        <S.SocialIcon src={GithubIcon} />
-                    </a>
-                    <span>Github</span>
-                </S.SocialSection>
-                <S.SocialSection>
-                    <a href='#'>
-                        <S.SocialIcon src={EmailIcon} />
-                    </a>
-                    <span>devsduo.contato@gmail.com</span>
-                </S.SocialSection>
+                    <S.SocialSection>
+                        <a href='#' target='_blank'>
+                            <FaWhatsapp  />
+                        </a>
+                        <span>Whatsapp</span>
+                    </S.SocialSection>
+                    <S.SocialSection>
+                        <a href="https://www.instagram.com/devs.duo/" target='_blank'>
+                            <FaInstagram  />
+                        </a>
+                        <span>Instagram</span>
+                    </S.SocialSection>
+                    <S.SocialSection>
+                        <a href="www.linkedin.com/company/devs-duo/" target='_blank'>
+                            <FaLinkedinIn  />
+                        </a>
+                        <span>Linkedin</span>
+                    </S.SocialSection>
+                    <S.SocialSection>
+                        <a href="https://github.com/DevsDuo" target='_blank'>
+                            <FiGithub />
+                        </a>
+                        <span>Github</span>
+                    </S.SocialSection>
+                    <S.SocialSection>
+                        <a href='#' target='_blank'>
+                            <SiGmail />
+                        </a>
+                        <span>devsduo.contato@gmail.com</span>
+                    </S.SocialSection>
                 </S.ImgsContainer>
             </S.RightContainer>
         </S.BodyContact>

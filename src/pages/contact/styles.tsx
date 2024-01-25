@@ -135,9 +135,6 @@ export const ImgsContainer = styled.div`
     @media (max-width: 768px) {
         flex-direction:row;
     }
-
-    
-
 `
 
 export const SocialSection = styled.div`
@@ -152,6 +149,35 @@ export const SocialSection = styled.div`
         padding-left: 20px;
     }
 
+    > a svg {
+        width: 80px;
+        height: 80px;
+        color: #939;
+        padding: 10px;
+
+        @media (max-width: 1024px) {
+            width: 60px;
+            height: 60px;
+        }
+
+        @media (max-width: 768px) {
+            width:80px;
+            height:80px;
+        }
+
+        @media (max-width: 450px) {
+            width:70px;
+            height:70px;
+        }
+    }
+
+    > a svg:hover {
+        color: #fff;
+        background-color: #939;
+        box-shadow: 0 0 20px #939;
+        border-radius: 20px;
+    }
+
     @media (max-width: 1024px) {
         display: flex;
         flex-direction: column;
@@ -164,23 +190,3 @@ export const SocialSection = styled.div`
 
     
 `;
-
-export const SocialIcon = styled.img`
-    width: 80px;
-    height: 80px;
-
-    @media (max-width: 1024px) {
-        width: 60px;
-        height: 60px;
-    }
-
-    @media (max-width: 768px) {
-        width:80px;
-        height:80px;
-    }
-
-    @media (max-width: 450px) {
-        width:70px;
-        height:70px;
-    }
-`;  

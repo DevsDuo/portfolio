@@ -135,6 +135,12 @@ export const ImgsContainer = styled.div`
     @media (max-width: 768px) {
         flex-direction:row;
     }
+
+    @media (max-width: 450px) {
+        flex-wrap: wrap;
+        width: 300px;
+        justify-content: center;
+    }
 `
 
 export const SocialSection = styled.div`

@@ -1,8 +1,6 @@
 import { projectType } from "../../pages/projects"
 import * as S from "./styles.tsx"
 
-
-
 export function Project(props:projectType) {
     return (
             <S.Wrapper>

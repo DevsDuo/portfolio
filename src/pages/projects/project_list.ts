@@ -11,7 +11,7 @@ import Portfolio from "../../assets/projects/portfolio.png"
 export const project_list = [
     {
         name: "Cronômetro",
-        link: "https://github.com/oThurDev/cronometro",
+        link: "https://othurdev.github.io/cronometro/",
         html: true,
         css: true,
         js: true,
@@ -21,7 +21,7 @@ export const project_list = [
     },
     {
         name: "Jogo da Velha",
-        link: "https://github.com/oThurDev/projeto-jogo-da-velha",
+        link: "https://othurdev.github.io/projeto-jogo-da-velha/",
         html: true,
         css: true,
         js: true,
@@ -31,7 +31,7 @@ export const project_list = [
     },
     {
         name: "Quadro de Desenho",
-        link: "https://github.com/oThurDev/projeto-quadro-de-desenho",
+        link: "https://othurdev.github.io/projeto-quadro-de-desenho/",
         html: true,
         css: true,
         js: true,
@@ -41,7 +41,7 @@ export const project_list = [
     },
     {
         name: "Clima",
-        link: "https://github.com/oThurDev/projeto-clima",
+        link: "https://othurdev.github.io/projeto-clima/",
         html: true,
         css: true,
         js:true,
@@ -51,7 +51,7 @@ export const project_list = [
     },
     {
         name: "Relógio",
-        link: "https://github.com/oThurDev/projeto-relogio",
+        link: "https://othurdev.github.io/projeto-relogio/",
         html: true,
         css: true,
         js:true,
@@ -61,7 +61,7 @@ export const project_list = [
     },
     {
         name: "Bateria",
-        link: "https://github.com/oThurDev/projeto-bateria",
+        link: "https://othurdev.github.io/projeto-bateria/",
         html: true,
         css: true,
         js:true,
@@ -71,7 +71,7 @@ export const project_list = [
     },
     {
         name: "Calculadora",
-        link: "https://github.com/oThurDev/Calculadora",
+        link: "https://othurdev.github.io/calculadora/",
         html: true,
         css: true,
         js:true,
@@ -91,7 +91,7 @@ export const project_list = [
     },
     {
         name: "Portfólio",
-        link: "https://github.com",
+        link: "https://devsduo.netlify.app",
         html: true,
         css: true,
         js: true,

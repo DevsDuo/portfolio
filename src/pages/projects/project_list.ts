@@ -72,13 +72,13 @@ export const project_list = [
         img:"https://i.pinimg.com/originals/71/9e/80/719e80760999b4c355a723224120eb07.png",
     },
     {
-        name: "Chico Automóveis",
-        link: "https://github.com",
+        name: "DevsDuo Automóveis",
+        link: "https://chicoautomoveis.netlify.app/",
         html: true,
         css: true,
         js: true,
         react:  true,
-        desc:"",
+        desc:"O projeto DevsDuo Automóveis é uma aplicação web em ReactJS que apresenta um catálogo de carros de uma empresa de automóveis. O site não necessita de um servidor externo e mostra de forma simples uma lista de itens.",
         img:"https://i.pinimg.com/originals/71/9e/80/719e80760999b4c355a723224120eb07.png",
     },
     {

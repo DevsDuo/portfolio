@@ -69,9 +69,6 @@ export const Technologies = styled.div`
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 
-    svg:last-of-type {
-        margin-top:0.2rem;
-    }
     
 `
 

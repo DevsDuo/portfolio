@@ -1,12 +1,12 @@
 import Cronometro from "../../assets/projects/cronometro.png"
 import JogoDaVelha from "../../assets/projects/jogo-da-velha.png"
-import Quadro from "../../assets/projects/quadro.png"
 import Clima from "../../assets/projects/clima.png"
 import Relogio from "../../assets/projects/relogio.png"
 import Bateria from "../../assets/projects/bateria.png"
-import Calculadora from "../../assets/projects/calculadora.png"
 import DevsDuoAutomoveis from "../../assets/projects/devs-duo-automoveis.png"
 import Portfolio from "../../assets/projects/portfolio.png"
+import Luta from "../../assets/projects/luta.png"
+import Quiz from "../../assets/projects/quiz.png"
 
 export const project_list = [
     {
@@ -28,16 +28,6 @@ export const project_list = [
         react: false,
         desc:"Bem vindo ao projeto Jogo da Velha, seu destino online para desafios emocionantes de Jogo da Velha! Com um design intuitivo e amigável, estamos aqui para trazer diversão clássica direto para o seu navegador.",
         img: JogoDaVelha,
-    },
-    {
-        name: "Quadro de Desenho",
-        link: "https://othurdev.github.io/projeto-quadro-de-desenho/",
-        html: true,
-        css: true,
-        js: true,
-        react:false,
-        desc:"O projeto Quadro de Desenho é um site inovador que oferece uma plataforma interativa para entusiastas de desenho e arte digital. Com uma interface intuitiva e amigável, os usuários podem liberar sua criatividade em um quadro de desenho digital.",
-        img: Quadro,
     },
     {
         name: "Clima",
@@ -70,14 +60,24 @@ export const project_list = [
         img:Bateria,
     },
     {
-        name: "Calculadora",
-        link: "https://othurdev.github.io/calculadora/",
+        name: "Quiz da Programação",
+        link: "https://othurdev.github.io/projeto-quiz/",
         html: true,
         css: true,
         js:true,
         react: false,
-        desc:"O projeto Calculadora é a sua calculadora online, simples e eficiente. Projetado para atender às suas necessidades de cálculos diários. Com funções básicas de adição, subtração, multiplicação e divisão, nossa calculadora é perfeita para tarefas rápidas e precisas.",
-        img:Calculadora,
+        desc:"O projeto do Quiz tem perguntas sobre a programação, sobre HTML, CSS e Javascript. Teste seus conhecimentos e veja quantos você acertou!",
+        img:Quiz,
+    },
+    {
+        name: "Jogo de Luta",
+        link: "https://othurdev.github.io/projeto-luta/",
+        html: true,
+        css: true,
+        js:true,
+        react: false,
+        desc:"O projeto luta consiste em um jogo de luta, onde um mago enfrente um monstro. O jogo está em fase de manutenção e não está finalizado ainda.",
+        img:Luta,
     },
     {
         name: "DevsDuo Automóveis",
